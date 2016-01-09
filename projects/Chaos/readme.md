@@ -120,35 +120,6 @@ F(x, y, z, t) = { K₁, K₂, K₃, ... }
 
 ---
 
-## 模块架构
-
-```
-Chaos/
-├── src/
-│   ├── Chaos.csproj              # 项目文件
-│   ├── Legend/                   # 传奇系统
-│   │   ├── Imprint.cs            # 社会印记
-│   │   ├── Orientation.cs        # 职业倾向
-│   │   └── Title.cs              # 传奇称号
-│   ├── Heavenly/                 # 天理系统
-│   │   ├── Parameters.cs         # 天理参数
-│   │   └── Catalyst.cs           # 催化剂事件
-│   ├── Karma/                    # 业力系统
-│   │   ├── Types.cs              # 业力类型
-│   │   └── Calculation.cs        # 业力计算
-│   ├── Fortune/                  # 气运系统
-│   │   ├── Deprivation.cs        # 气运剥夺
-│   │   └── Curse.cs              # 玩家诅咒
-│   └── Utils/                    # 工具函数
-│       └── Math.cs               # 数学计算
-├── tests/
-│   └── Chaos.Tests.csproj        # 测试项目
-└── benchmarks/
-    └── Chaos.Benchmarks.csproj   # 性能测试
-```
-
----
-
 ## API 设计
 
 ### 传奇系统 API
@@ -399,35 +370,3 @@ dotnet test --collect:"XPlat Code Coverage"
 ```
 
 ---
-
-## 依赖包
-
-```xml
-<ItemGroup>
-  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
-  <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
-  <PackageReference Include="System.Text.Json" Version="8.0.0" />
-  <PackageReference Include="NodaTime" Version="3.1.9" />
-</ItemGroup>
-```
-
----
-
-## 扩展阅读
-
-- [Chaos 引擎设计白皮书](../../../docs/whitepaper.md)
-- [共识场系统设计](../ConsensusField/readme.md)
-- [涌现生成器设计](../Emergence/readme.md)
-- [资产记录层设计](../Assets/readme.md)
-
----
-
-## 贡献
-
-请参考项目根目录的 [贡献指南](../../../CONTRIBUTING.md)。
-
----
-
-## 许可证
-
-本项目采用 MIT 许可证 - 详见 [License.md](../../../License.md) 文件。
