@@ -1,3 +1,6 @@
+using Chaos.Core.ValueObjects;
+using Chaos.Fortune.Enums;
+
 namespace Chaos.Fortune.Interfaces;
 
 public interface ICurseMechanism

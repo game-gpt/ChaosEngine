@@ -1,3 +1,5 @@
+using Chaos.Core.ValueObjects;
+
 namespace Chaos.Combat.Interfaces;
 
 public interface ICombatSystem

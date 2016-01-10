@@ -1,3 +1,6 @@
+using Chaos.Core.ValueObjects;
+using Chaos.Networking.Messages;
+
 namespace Chaos.Networking.Interfaces;
 
 public interface INetworkManager

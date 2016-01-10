@@ -1,3 +1,4 @@
+using Chaos.Core.Enums;
 using Chaos.Core.ValueObjects;
 
 namespace Chaos.Karma.ValueObjects;

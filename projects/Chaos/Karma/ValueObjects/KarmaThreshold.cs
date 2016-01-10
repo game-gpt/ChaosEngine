@@ -1,3 +1,5 @@
+using Chaos.Core.Enums;
+
 namespace Chaos.Karma.ValueObjects;
 
 public readonly record struct KarmaThreshold(KarmaType Type, double Value)

@@ -1,3 +1,5 @@
+using Chaos.Tianli.Enums;
+
 namespace Chaos.Tianli.Interfaces;
 
 public interface IWorldTrend

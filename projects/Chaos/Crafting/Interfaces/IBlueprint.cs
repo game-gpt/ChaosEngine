@@ -1,3 +1,6 @@
+using Chaos.Core.ValueObjects;
+using Chaos.Crafting.ValueObjects;
+
 namespace Chaos.Crafting.Interfaces;
 
 public interface IBlueprint

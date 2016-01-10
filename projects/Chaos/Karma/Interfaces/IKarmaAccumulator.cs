@@ -1,3 +1,5 @@
+using Chaos.Core.Enums;
+
 namespace Chaos.Karma.Interfaces;
 
 public interface IKarmaAccumulator

@@ -1,3 +1,7 @@
+using Chaos.Assets.Enums;
+using Chaos.Assets.ValueObjects;
+using Chaos.Core.ValueObjects;
+
 namespace Chaos.Assets.Interfaces;
 
 public interface IAssetRecord

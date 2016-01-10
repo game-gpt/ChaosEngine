@@ -16,6 +16,7 @@ Cargo.lock
 
 # C# 
 bin/
+obj/
 
 # Node
 node_modules/

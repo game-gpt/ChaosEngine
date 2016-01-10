@@ -1,3 +1,5 @@
+using Chaos.Core.ValueObjects;
+
 namespace Chaos.Networking.Interfaces;
 
 public interface ISessionNode

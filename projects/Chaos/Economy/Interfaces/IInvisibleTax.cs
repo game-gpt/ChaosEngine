@@ -1,3 +1,5 @@
+using Chaos.Economy.ValueObjects;
+
 namespace Chaos.Economy.Interfaces;
 
 public interface IInvisibleTax

@@ -1,3 +1,5 @@
+using Chaos.Core.Enums;
+
 namespace Chaos.Legend.ValueObjects;
 
 public readonly record struct LegendTitle(string Name, string DisplayName, string Description)

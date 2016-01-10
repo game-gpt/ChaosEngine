@@ -1,3 +1,5 @@
+using Chaos.Networking.Enums;
+
 namespace Chaos.Networking.Messages;
 
 public abstract record NetworkMessage(MessageType Type, DateTime Timestamp)

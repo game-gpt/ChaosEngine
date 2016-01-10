@@ -1,3 +1,5 @@
+using Chaos.Core.ValueObjects;
+
 namespace Chaos.Crafting.Interfaces;
 
 public interface ICraftingSystem

@@ -1,3 +1,6 @@
+using Chaos.Core.ValueObjects;
+using Chaos.Ecology.Enums;
+
 namespace Chaos.Ecology.Interfaces;
 
 public interface IEcologySystem

@@ -1,3 +1,7 @@
+using Chaos.Core.Enums;
+using Chaos.Core.ValueObjects;
+using Chaos.Karma.ValueObjects;
+
 namespace Chaos.Karma.Interfaces;
 
 public interface IKarmaSystem

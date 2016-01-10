@@ -1,3 +1,6 @@
+using Chaos.Combat.Enums;
+using Chaos.Core.ValueObjects;
+
 namespace Chaos.Combat.Interfaces;
 
 public interface ITechnique

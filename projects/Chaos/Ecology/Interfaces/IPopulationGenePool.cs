@@ -1,3 +1,6 @@
+using Chaos.Core.ValueObjects;
+using Chaos.Ecology.ValueObjects;
+
 namespace Chaos.Ecology.Interfaces;
 
 public interface IPopulationGenePool

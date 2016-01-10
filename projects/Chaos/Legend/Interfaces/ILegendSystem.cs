@@ -1,3 +1,7 @@
+using Chaos.Core.Enums;
+using Chaos.Core.ValueObjects;
+using Chaos.Legend.ValueObjects;
+
 namespace Chaos.Legend.Interfaces;
 
 public interface ILegendSystem
